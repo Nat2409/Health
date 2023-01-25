@@ -1,0 +1,25 @@
+.user_menu {
+  height: 40px;
+  background: #eff1f3;
+}
+.button_arrow {
+  /* width: 12px;
+  height: 7px; */
+  background-image: url(../../images/user_menu_arrow.svg);
+}
+.user_name {
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  color: #212121;
+
+  margin: 0;
+  padding: 0;
+  padding-right: 15px;
+  height: 32px;
+  border-right: 2px solid #e0e0e0;
+}

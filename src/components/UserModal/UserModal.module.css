@@ -1,0 +1,50 @@
+.modal_container {
+  height: 100vh;
+  background-color: #264061;
+}
+.modal_list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.modal_item:first-of-type {
+  margin-bottom: 20px;
+}
+.modal_link {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #9b9faa;
+}
+.modal_link:hover,
+.modal_link:focus {
+  color: #fff;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .modal_list {
+    width: 290px;
+    margin: 0 auto;
+    padding: 60px 15px 0px 15px;
+  }
+  .modal_link {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal_list {
+    width: 312px;
+    margin: 0 auto;
+    padding: 108px 231px 0px 231px;
+  }
+  .modal_link {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

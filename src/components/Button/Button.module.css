@@ -1,0 +1,36 @@
+.button,
+.button_transparent {
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  width: 176px;
+  height: 44px;
+  box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+  border-radius: 30px;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.button {
+  background: #fc842d;
+  border: 2px solid transparent;
+  color: #ffffff;
+}
+.button_transparent {
+  background: #ffffff;
+  border: 2px solid #fc842d;
+  color: #fc842d;
+}
+.button:hover,
+.button:focus,
+.button_transparent:hover,
+.button_transparent:focus {
+  background: #e66000;
+  border: 2px solid #e66000;
+  color: #ffffff;
+}

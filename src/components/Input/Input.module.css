@@ -1,0 +1,19 @@
+.form_input {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 0;
+  width: 240px;
+  height: 56px;
+  margin-bottom: 10px;
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #9b9faa;
+}
+.form_input:active {
+  border: 1px solid #e0e0e0;
+}

@@ -1,0 +1,66 @@
+.logo {
+  padding-bottom: 4px;
+  display: inline-block;
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  color: #212121;
+}
+.logo_color {
+  color: #fc842d;
+}
+
+.logo::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 32px;
+  background-color: #e0e0e0;
+  margin-left: 10px;
+}
+.activeStyle {
+  color: #212121;
+  text-decoration: none;
+}
+.linkStyle {
+  font-family: 'Gotham Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 13.4px;
+  text-decoration: none;
+  color: #9b9faa;
+}
+.navLinks {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+   
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (min-width: 768px) {
+  .logo::before {
+    content: url('../../images/logo.svg');
+    display: inline-block;
+    width: 70px;
+    height: 66px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .nav {
+    border-bottom: 2px solid #e0e0e0;
+  }
+}
